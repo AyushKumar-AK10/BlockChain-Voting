@@ -1,0 +1,26 @@
+/* Green color palette (adjust to your preferences) */
+#primary_green: #2ECC71;  /* Emerald green */
+#light_green: #DFF0DF;   /* Light green */
+
+/* Label */
+.label-home {
+  padding: 0.5em;
+  color: #primary_green;  /* Use primary green */
+}
+
+/* Input field */
+.input-home {
+  margin: 1em 7px;
+  padding: 1em;
+  border: 1px solid #light_green;  /* Light green border */
+  border-radius: 5px;
+  background-color: #fff;  /* White background for better contrast */
+  min-width: 300px;
+}
+
+/* Apply styles to both classes */
+.label-home,
+.input-home {
+  display: block;
+  margin-bottom: 11px;
+}
